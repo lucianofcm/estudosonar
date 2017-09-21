@@ -1,0 +1,5 @@
+projectKey=org.sonarqube:parent
+serverUrl=http://sonar.camara.gov.br
+dashboardUrl=http://sonar.camara.gov.br/dashboard/index/org.sonarqube:parent
+ceTaskId=AV6kTRtquxTSH70viaVu
+ceTaskUrl=http://sonar.camara.gov.br/api/ce/task?id=AV6kTRtquxTSH70viaVu

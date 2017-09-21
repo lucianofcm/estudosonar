@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1505995005000" analysisTimestamp="1505995017671" release="">
+  <Project>
+    <Jar>/home/luciano/desenv/aplic/sonar/sonar-scanning-examples/sonarqube-scanner-maven/app-it/src/main/java/example/EmptyClass.java</Jar>
+    <Jar>/home/luciano/desenv/aplic/sonar/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/classes/example/EmptyClass.class</Jar>
+    <AuxClasspathEntry>/home/luciano/desenv/aplic/sonar/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/luciano/.m2/repository/org/sonarqube/app-java/1.0-SNAPSHOT/app-java-1.0-SNAPSHOT.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/luciano/desenv/aplic/sonar/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/luciano/desenv/aplic/sonar/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/home/luciano/desenv/aplic/sonar/sonar-scanning-examples/sonarqube-scanner-maven/app-it/target/sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 21 Sep 2017 08:56:45 -0300" total_classes="1" referenced_classes="9" total_bugs="0" total_size="3" num_packages="1" java_version="1.8.0_74" vm_version="25.74-b02" cpu_seconds="0.89" clock_seconds="0.27" peak_mbytes="364.53" alloc_mbytes="1746.00" gc_seconds="0.02">
+    <FileStats path="example/EmptyClass.java" bugCount="0" size="3"/>
+    <PackageStats package="example" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="example.EmptyClass" sourceFile="EmptyClass.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="90" invocations="286" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="19392" standardDeviationMircosecondsPerInvocation="1213"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="18" invocations="287" avgMicrosecondsPerInvocation="65" maxMicrosecondsPerInvocation="1040" standardDeviationMircosecondsPerInvocation="70"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
